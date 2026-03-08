@@ -1,5 +1,5 @@
 function sortear() {
-    const quantidade = document.getElementById('quantidade').value;
-    const de = document.getElementById('de').value;
-    const ate = document.getElementById('ate').value;
+    const quantidade = parseInt(document.getElementById('quantidade').value);
+    const de = parseInt(document.getElementById('de').value);
+    const ate = parseInt(document.getElementById('ate').value);
 }
